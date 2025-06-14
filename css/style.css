@@ -1,6 +1,6 @@
 /* Background color for the whole page */
 body {
-    background-color: #D7C0AE;
+    background-color: #b1abaa;
     display: flex;
     justify-content: center; /* Centers content horizontally */
     align-items: center; /* Centers content vertically */
@@ -32,3 +32,12 @@ a {
     color: #333;
     font-weight: bold;
 }
+/* Ensuring lists are centered properly */
+ul, ol {
+    list-style-position: inside; /* Ensures bullet points stay with the text */
+    text-align: center; /* Centers the content */
+    padding: 0; /* Removes extra spacing */
+    margin: auto; /* Centers the list */
+    display: inline-block; /* Helps with centering inside container */
+}
+
