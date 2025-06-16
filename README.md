@@ -1,6 +1,5 @@
 - 👋 Hi, I’m Raja Kumar.
-- 👀 I’m interested in Automation.
-- 🌱 I’m currently learning Python.
+- 👀 I’m interested in Infrastructure Automation.
 
 <!---
 grk0519/grk0519 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
