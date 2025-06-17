@@ -15,21 +15,46 @@ body {
     gap: 20px; /* Adds space between containers */
 }
 
+/* Profile container for the image and name */
+/* ...existing code... */
+.profile-container {
+    width: 20%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.profile-container h1 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+/* ...existing code... */
 /* Container to center content */
 .container {
     width: 50%; /* Adjust width as needed */
-    padding: 20px;
+    padding: 10px;
     background-color: white; /* Adds contrast */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
 }
 
 .contact-container {
-    width: 20%;
-    padding: 20px;
+    flex: 1 1 0; /* Allows it to grow and shrink */
+    width: 20%; /* Fixed width for the contact section */
+    padding: 10px;
     background-color: #f8f9fa;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Aligns text to the left */
+    margin-right: 5px;
 }
 
 .contact-container a {
@@ -63,5 +88,22 @@ ul, ol {
     padding: 0; /* Removes extra spacing */
     margin: auto; /* Centers the list */
     display: inline-block; /* Helps with centering inside container */
+}
+
+/* ...existing code... */
+
+/* Responsive layout for small screens */
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .profile-container,
+    .container,
+    .contact-container {
+        width: 100%;
+        min-width: 0;
+        margin: 10px 0;
+    }
 }
 
