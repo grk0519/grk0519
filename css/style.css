@@ -106,7 +106,11 @@ a {
     }
     .img-style {
         width: 100px; /* Adjusted for smaller screens */
-        height: 80vw; /* Adjusted for smaller screens */
+        height: auto; /* Adjusted for smaller screens */
+        max-width: 80vw;
     }
+    .profile-container h1 {
+        font-size: 1.5em; /* Adjusted for smaller screens */
+    }   
 }
 
