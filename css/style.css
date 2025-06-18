@@ -96,9 +96,17 @@ a {
 @media (max-width: 768px) {
     .wrapper {
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
     }
-    .profile-container,
+    .profile-container{
+        width: 100%; /* Makes it full width */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        text-align: center;    
+    }
     .container,
     .contact-container {
         width: 100%;
@@ -108,10 +116,16 @@ a {
     .img-style {
         width: 100px; /* Adjusted for smaller screens */
         height: auto; /* Adjusted for smaller screens */
+        border-radius: 50%; /* Circular profile image */
+        margin-bottom: 10px; /* Adds space below the image */
         max-width: 80vw;
     }
     .profile-container h1 {
         font-size: 1.1em; /* Adjusted for smaller screens */
-    }   
+    } 
+    .profile-container h2 {
+        font-size: 1em; /* Adjusted for smaller screens */
+        
+    }  
 }
 
