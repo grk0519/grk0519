@@ -105,7 +105,8 @@ a {
         align-items: center;
         justify-content: center;
         padding: 15px;
-        text-align: center;    
+        text-align: center; 
+        visibility: visible; /* Ensures visibility on small screens */
     }
     .container,
     .contact-container {
@@ -114,7 +115,8 @@ a {
         margin: 10px 0;
     }
     .img-style {
-        width: 100px; /* Adjusted for smaller screens */
+        display: block;
+        width: 120px; /* Adjusted for smaller screens */
         height: auto; /* Adjusted for smaller screens */
         border-radius: 50%; /* Circular profile image */
         margin-bottom: 10px; /* Adds space below the image */
