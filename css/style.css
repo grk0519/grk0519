@@ -1,133 +1,163 @@
-/* Background color for the whole page */
+/* Reset default margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background and layout */
 body {
-    background-color: #58b8d6f7;
-    display: flex;
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
-    height: 100vh; /* Full viewport height */
-    text-align: left; 
-    margin: 0;
+  background-color: #58b8d6f7;
+  font-family: Arial, sans-serif;
+  text-align: left;
 }
 
-body h1 {
-    text-align: center; /* Centers the main heading */
-    margin-bottom: 10px; /* Adds space below the heading */
+/* Full-width dark blue header */
+.main-header {
+  position: relative;
+  background-color: #003366;
+  color: white;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center; /* centers nav inside */
 }
 
+.date-display {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  font-weight: bold;
+  font-size: 0.95em;
+  color: white;
+}
+
+.main-header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Content wrapper */
 .wrapper {
-    display: flex;
-    align-items: flex-start; /* Aligns the tops of both containers */
-    gap: 10px; /* Adds space between containers */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 30px 10px;
+  flex-wrap: wrap;
 }
 
-/* Profile container for the image and name */
-/* ...existing code... */
+/* Profile container */
 .profile-container {
-    width: 20%;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    margin-right: 0px;
-    margin-left: 0px;
-    text-align: center; /* Centers text in the profile container */
+  width: 20%;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.profile-container h1 {
-    font-size: 1.2em;
-    margin-top: 15px;
-    margin-bottom: 0;
-    text-align: center;
-}
-/* ...existing code... */
-/* Container to center content */
+/* Main content */
 .container {
-    width: 50%; /* Adjust width as needed */
-    padding: 10px;
-    background-color: white; /* Adds contrast */
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  padding-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Contact info */
 .contact-container {
-    flex: 1 1 0; /* Allows it to grow and shrink */
-    width: 20%; /* Fixed width for the contact section */
-    padding: 10px;
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: left; /* Aligns text to the left */
-    margin-right: 5px;
+  width: 20%;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact-container a {
-    text-decoration: none;
-    color: #0077b5;
-    font-weight: bold;
+  text-decoration: none;
+  color: #0077b5;
+  font-weight: bold;
 }
 
 .contact-container a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-/* Responsive image styling */
+/* Profile image */
 .img-style {
-    max-width: 100%; /* Ensures image doesn't overflow */
-    width: 150px; /* Fixed width for profile image */
-    height: auto; /* Maintains aspect ratio */
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%; /* Circular profile image */
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
 }
 
+/* Links */
 a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-/* ...existing code... */
+/* Headings */
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
 
-/* Responsive layout for small screens */
+.profile-container h1 {
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+
+/* Responsive layout */
 @media (max-width: 768px) {
-    .wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
-    .profile-container{
-        width: 100%; /* Makes it full width */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 15px;
-        text-align: center; 
-        visibility: visible; /* Ensures visibility on small screens */
-    }
-    .container,
-    .contact-container {
-        width: 100%;
-        min-width: 0;
-        margin: 10px 0;
-    }
-    .img-style {
-        display: block;
-        width: 120px; /* Adjusted for smaller screens */
-        height: auto; /* Adjusted for smaller screens */
-        border-radius: 50%; /* Circular profile image */
-        margin-bottom: 10px; /* Adds space below the image */
-        max-width: 80vw;
-    }
-    .profile-container h1 {
-        font-size: 1.1em; /* Adjusted for smaller screens */
-    } 
-    .profile-container h2 {
-        font-size: 1em; /* Adjusted for smaller screens */
-        
-    }  
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .profile-container,
+  .container,
+  .contact-container {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .img-style {
+    width: 120px;
+    max-width: 80vw;
+  }
+
+  .profile-container h1 {
+    font-size: 1.1em;
+  }
+
+  .profile-container h2 {
+    font-size: 1em;
+  }
+}
+.container ul,
+.container ol {
+  padding-left: 20px; /* adds space inside the container */
+  margin-left: 10px;   /* optional: extra space outside list */
 }
 
+.container li {
+  margin-bottom: 6px; /* adds a little space between each item */
+}
