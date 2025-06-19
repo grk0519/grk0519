@@ -119,6 +119,16 @@ h1 {
   margin-bottom: 10px;
 }
 
+.about-me {
+  padding-left: 15px; /* Adjust as needed */
+  padding-bottom: 10px;
+}
+
+.contact-details {
+  padding-left: 15px; /* Adjust as needed */
+  padding-bottom: 10px;
+}   
+
 .profile-container h1 {
   font-size: 1.2em;
   margin-top: 15px;
