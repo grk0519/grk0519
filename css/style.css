@@ -136,6 +136,9 @@ h1 {
 
 /* Responsive layout */
 @media (max-width: 768px) {
+    .date-display {
+    display: none;
+  }
   .wrapper {
     flex-direction: column;
     align-items: center;
