@@ -32,6 +32,13 @@ body {
   color: white;
 }
 
+/* Add this after the above rule */
+@media (max-width: 768px) {
+  .date-display {
+    display: none !important;
+  }
+}
+
 .main-header nav ul {
   list-style: none;
   display: flex;
@@ -136,9 +143,7 @@ h1 {
 
 /* Responsive layout */
 @media (max-width: 768px) {
-    .date-display {
-    display: none;
-  }
+    
   .wrapper {
     flex-direction: column;
     align-items: center;
