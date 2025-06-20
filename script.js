@@ -20,7 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
   if (resumeLink) {
     resumeLink.addEventListener('click', function () {
       setTimeout(() => {
-        alert("✅ Thank you for downloading my resume!\n\nIf it sparked your interest, I’d love to hear your thoughts or answer any questions you may have.");
+        // Show alert after clicking the download link 
+        alert("✅ Thank you for taking the time to review my resume. I'm excited about the opportunity to contribute and would be happy to connect for a deeper conversation.");
       }, 500); // slight delay for smoother feel
     });
   }
