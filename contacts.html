@@ -1,15 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Details</title>
+  <meta charset="UTF-8">
+  <title>Contact - XYJ Smart Edit</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    body {
+      background: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+
+    .contact-container {
+      max-width: 600px;
+      margin: 80px auto;
+      padding: 30px;
+      background: #787ebe68;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+      text-align: center;
+    }
+
+    h2 {
+      color: #003366;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.05em;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .email-address {
+      font-weight: bold;
+      color: #005599;
+    }
+
+    .home-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 22px;
+      background-color: #003366;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.2s ease;
+    }
+
+    .home-btn:hover {
+      background-color: #005599;
+    }
+  </style>
 </head>
 <body>
-    <h4><strong>My Contact Details.</strong></h4>
-    <p> Mobile: 9985500399</p>
-    <p> email: grk0519@gmail.com </p>
-    
+  <div class="contact-container">
+    <p>📫 <strong>Let’s Connect</strong></p>
+    <p>
+        Whether you’re a fellow developer, educator, or a recruiter looking for creative, user-focused app solutions—I'd love to hear from you!
+    </p>
+    <p>
+        Feel free to reach out with questions, project ideas, or opportunities to collaborate.
+    </p>
+    <p>
+    <strong>Email:</strong> <span class="email-address">grk0519@gmail.com</span>
+    </p>
+    <a href="index.html" class="home-btn">🏠 Back to Home</a>
+  </div>
 </body>
 </html>
