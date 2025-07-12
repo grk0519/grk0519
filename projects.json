@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Number Magic",
+    "description": "An interactive logic-based math app that playfully explores number Insights. Built with Flask and designed for engagement.",
+    "tags": ["Math", "Interactive", "Flask", "Logic", "Educational"],
+    "link": "https://numbermagic.onrender.com",
+    "date": "2025-07-12"    
+  },
+
+  {
+  "title": "Stay Tuned",
+  "description": "Stay tuned for the latest updates on my projects. More exciting entries coming soon!",
+  "tags": ["Coming Soon"],
+  "link": "#",
+  "date": "2025-07-13"
+  }
+]
