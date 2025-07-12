@@ -22,7 +22,7 @@ fetch("projects.json")
         <div class="project-date-badge">${dateText}</div>
         <h2>${project.title}</h2>
         <p>${project.description}</p>
-        <a href="${project.link}" target="_blank">Visit</a>
+        <p><a href="${project.link}" target="_blank">Visit</a></p>
         <span>${tagsText}</span>
       `;
       
