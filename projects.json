@@ -4,6 +4,7 @@
     "description": "An interactive logic-based math app that playfully explores number Insights. Built with Flask and designed for engagement.",
     "tags": ["Math", "Interactive", "Flask", "Logic", "Educational"],
     "link": "https://numbermagic.onrender.com",
+    "github": "https://github.com/grk0519/fun-number-math-webapp",
     "date": "2025-07-12"    
   },
 
