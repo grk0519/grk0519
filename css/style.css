@@ -22,6 +22,15 @@ body {
   text-align: center; /* centers nav inside */
 }
 
+.header-icon img {
+  position: absolute;  
+  height: 40px; /* adjust size as needed */
+  width: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px; /* adjust position as needed */
+  border-radius: 50%; /* optional: makes the icon circular */
+}
 .date-display {
   position: absolute;
   top: 50%;
@@ -53,6 +62,8 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
+
+
 
 /* Content wrapper */
 .wrapper {
