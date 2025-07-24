@@ -3,10 +3,10 @@
 - 10-Jul-20205: 
     ## 🌟 Project Spotlight: NumberMagic
 🗓️ **Launched:** 10 July 2025  
-🚀 **Status:** Live and thriving at [numbermagic.onrender.com](https://numbermagic.onrender.com)  
+🚀 **Status:** Live @ [numbermagic.onrender.com](https://numbermagic.onrender.com)  
 🔧 **Tech Stack:** Flask (Backend), HTML + CSS (Frontend)
-🎩 **What It Is:**  
-NumberMagic is a playful, interactive web application designed to make mathematics feel engaging and intuitive. From flip-card-style UI elements to logical number patterns, it's where fun meets functionality.
+
+🎩 **What It Is:** NumberMagic is a playful, interactive web application designed to make mathematics feel engaging and intuitive. From flip-card-style UI elements to logical number patterns, it's where fun meets functionality.
 
 🔗 **Explore the Magic:**  
 Visit the live app 👉 [numbermagic.onrender.com](https://numbermagic.onrender.com)  
