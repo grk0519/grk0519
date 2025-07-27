@@ -13,7 +13,7 @@
     "title": "Know Your Country",
     "description": "KnowYourCountry is a Flask-based app.\nIt helps users explore countries.\nIt includes national sports and maps.",
     "tags": ["Maps", "Interactive", "Flask", "Country", "Educational"],
-    "link": "knowyourcountry-aydnhve4c6hhawhz.eastasia-01.azurewebsites.net",
+    "link": "https://knowyourcountry-aydnhve4c6hhawhz.eastasia-01.azurewebsites.net/",
     "github": "https://github.com/grk0519/country-explorer",
     "date": "2025-07-24"    
   },
