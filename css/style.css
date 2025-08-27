@@ -225,5 +225,11 @@ h1 {
   gap: 10px;
 }
 
+.social-icons {
+  margin-top: 10px;
+}
+.social-icons a {
+  text-decoration: none;
+}
 
 
