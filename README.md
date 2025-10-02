@@ -21,7 +21,6 @@ NumberMagic is a playful, interactive web application designed to make mathemati
 
 ## 🌍 Project Spotlight: CountryExplorer  
 🗓️ **Launched:** 20 JUL 2025  
-🚀 **Status:** Live @ [knowyourcountry-aydnhve4c6hhawhz.eastasia-01.azurewebsites.net](https://knowyourcountry-aydnhve4c6hhawhz.eastasia-01.azurewebsites.net)  
 🔧 **Tech Stack:** Flask (Backend), HTML + CSS (Frontend), REST Countries API
 
 🧭 **What It Is:**  
@@ -35,6 +34,7 @@ CountryExplorer is a minimalist web app where curiosity meets geography. Just en
 - 🌐 Real-time data via REST Countries API  
 - ⚙️ Hosted on Azure Web App Services, continuously deployed through GitHub Actions
 
+👉 [GitHub Repo](https://github.com/grk0519/country-explorer)
 ---
 
 📌 **More to Come:**  
