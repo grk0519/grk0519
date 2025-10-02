@@ -9,6 +9,7 @@
 🗓️ **Launched:** 10 July 2025  
 🚀 **Status:** Live @ [numbermagic.onrender.com](https://numbermagic.onrender.com)  
 🔧 **Tech Stack:** Flask (Backend), HTML + CSS (Frontend)
+- ⚙️ Hosted on Render, continuously deployed through GitHub Actions
 
 🎩 **What It Is:**  
 NumberMagic is a playful, interactive web application designed to make mathematics feel engaging and intuitive. From flip-card-style UI elements to logical number patterns, it's where fun meets functionality.
@@ -32,8 +33,6 @@ CountryExplorer is a minimalist web app where curiosity meets geography. Just en
 - 🧱 Clean and responsive HTML + CSS interface  
 - 🐍 Python Flask backend for lightweight routing  
 - 🌐 Real-time data via REST Countries API  
-- ⚙️ Hosted on Azure Web App Services, continuously deployed through GitHub Actions
-
 👉 [GitHub Repo](https://github.com/grk0519/country-explorer)
 ---
 
