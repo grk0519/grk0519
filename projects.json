@@ -2,7 +2,7 @@
   
   {
     "title": "Number Magic",
-    "description": "An interactive logic-based math app that playfully explores number Insights. Built with Flask and designed for engagement.",
+    "description": "An interactive logic-based math app that playfully explores number Insights. Built with Flask and designed for engagement. Hosted on Render.",
     "tags": ["Math", "Interactive", "Flask", "Logic", "Educational"],
     "link": "https://numbermagic.onrender.com",
     "github": "https://github.com/grk0519/fun-number-math-webapp",
@@ -12,8 +12,7 @@
   {
     "title": "Know Your Country",
     "description": "KnowYourCountry is a Flask-based app.\nIt helps users explore countries.\nIt includes national sports and maps.",
-    "tags": ["Maps", "Interactive", "Flask", "Country", "Educational"],
-    "link": "https://knowyourcountry-aydnhve4c6hhawhz.eastasia-01.azurewebsites.net/",
+    "tags": ["Maps", "Interactive", "Flask", "Country", "Educational"],    
     "github": "https://github.com/grk0519/country-explorer",
     "date": "2025-07-24"    
   },
