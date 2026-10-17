@@ -12,7 +12,7 @@
 - ⚙️ Hosted on Render, continuously deployed through GitHub Actions
 
 🎩 **What It Is:**  
-NumberMagic is a playful, interactive web application designed to make mathematics feel engaging and intuitive. From flip-card-style UI elements to logical number patterns, it's where fun meets functionality.
+NumberMagic is a playful, interactive web application designed to make mathematics feel engaging and intuitive. From flip-card-style UI elements to logical number patterns, it's where fun meets functionality for learners and curious minds.
 
 🔗 **Explore the Magic:**  
 👉 [Live App](https://numbermagic.onrender.com)  
@@ -34,6 +34,27 @@ CountryExplorer is a minimalist web app where curiosity meets geography. Just en
 - 🐍 Python Flask backend for lightweight routing  
 - 🌐 Real-time data via REST Countries API  
 👉 [GitHub Repo](https://github.com/grk0519/country-explorer)
+
+---
+
+## ✨ Project Spotlight: XYJ-Smart-Editor  
+🗓️ **Launched:** 17 October 2025  
+🔧 **Tech Stack:** Python, Flask, HTML + CSS, XML/YAML/JSON validation  
+🚀 **Status:** Active project in development
+
+🧩 **What It Is:**  
+XYJ-Smart-Editor is a browser-based utility for uploading, validating, editing, previewing, and downloading XML, YAML, and JSON files without leaving the browser. It is designed to make structured data editing faster and more approachable.
+
+⚙️ **Highlights:**  
+- 📁 Upload and validate `.xml`, `.yaml`, `.yml`, and `.json` files  
+- 📝 Edit values and attributes in a structured browser form  
+- 👀 Preview the updated document before saving  
+- ⬇️ Download the modified file as a clean output copy  
+- 🧹 Clear session state and remove uploaded/generated artifacts  
+
+🔗 **Explore the Project:**  
+👉 [GitHub Repo](https://github.com/grk0519/XYJ-Smart-Editor)
+
 ---
 
 📌 **More to Come:**  
