@@ -1,26 +1,33 @@
 [
-  
   {
     "title": "Number Magic",
     "description": "An interactive logic-based math app that playfully explores number Insights. Built with Flask and designed for engagement. Hosted on Render.",
     "tags": ["Math", "Interactive", "Flask", "Logic", "Educational"],
     "link": "https://numbermagic.onrender.com",
     "github": "https://github.com/grk0519/fun-number-math-webapp",
-    "date": "2025-07-12"    
-  },
-  
-  {
-    "title": "Know Your Country",
-    "description": "KnowYourCountry is a Flask-based app.\nIt helps users explore countries.\nIt includes national sports and maps.",
-    "tags": ["Maps", "Interactive", "Flask", "Country", "Educational"],    
-    "github": "https://github.com/grk0519/country-explorer",
-    "date": "2025-07-24"    
+    "date": "2025-07-12"
   },
 
   {
-  "title": "Stay Tuned",
-  "description": "Stay tuned for the latest updates on my projects. More exciting entries coming soon!",
-  "tags": ["Coming Soon"],
-  "link": "#"
+    "title": "Know Your Country",
+    "description": "KnowYourCountry is a Flask-based app.\nIt helps users explore countries.\nIt includes national sports and maps.",
+    "tags": ["Maps", "Interactive", "Flask", "Country", "Educational"],
+    "github": "https://github.com/grk0519/country-explorer",
+    "date": "2025-07-24"
+  },
+
+  {
+    "title": "XYJ-Smart-Editor",
+    "description": "A browser-based editor for XML, YAML, and JSON files. Upload, validate, edit, preview, and download structured documents without leaving your browser. Includes session cleanup and a structured form editor for XML.",
+    "tags": ["Editor", "XML", "YAML", "JSON", "Flask", "Utilities"],
+    "github": "https://github.com/grk0519/XYJ-Smart-Editor",
+    "date": "2026-10-17"
+  },
+
+  {
+    "title": "Stay Tuned",
+    "description": "Stay tuned for the latest updates on my projects. More exciting entries coming soon!",
+    "tags": ["Coming Soon"],
+    "link": "#"
   }
 ]
